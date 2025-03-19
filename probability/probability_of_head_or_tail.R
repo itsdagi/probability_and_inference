@@ -1,3 +1,5 @@
-coin10 <- sample(c(0,1),size = 10, replace = T)
+flip_coin <- sample(c(0,1), size = 100, replace = T)
 
-table(coin10)/length(coin10)
+out_come <- table(flip_coin)/ length(flip_coin)
+
+out_come
